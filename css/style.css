@@ -1,0 +1,11 @@
+body {
+}
+
+.img {
+  border: 1px solid gray;
+  margin: 15px;
+}
+
+.list li {
+  margin-top: 10px;
+}
