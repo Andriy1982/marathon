@@ -1,11 +1,56 @@
 body {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  background-color: #592c8b;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.conteiner {
+  width: 1200px;
+  margin: 0px auto;
+  padding: 30px 30px;
+  background-color: #fff;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.offer {
+  text-align: center;
+}
+h1 {
+  border-bottom: 5px solid #ff6b08;
+  padding: 10px;
+}
+
+.main {
+  margin-top: 30px;
 }
 
 .img {
   border: 1px solid gray;
   margin: 15px;
+  margin-left: 30px;
+}
+
+.img-block {
+  display: flex;
+  justify-content: center;
 }
 
 .list li {
   margin-top: 10px;
+}
+
+.deadline {
+  text-align: center;
+  font-weight: 800;
 }
